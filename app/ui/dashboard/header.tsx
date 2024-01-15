@@ -7,12 +7,11 @@ export default function Header(){
         <div>
             {/* make this actually good */}
             <Image
-                src="/WCCS Co-op Management.png"
+                src="/WCSS-Co-op-Management.png"
                 width={600}
                 height={235}
                 alt="Image of the WCCS Co-op Management Logo"
             />
-            <h1>WEST CARLETON CO-OP MANAGEMENT SYSTEM</h1>
             <NavLinks />
         </div>
     );
