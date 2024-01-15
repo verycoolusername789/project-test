@@ -10,7 +10,7 @@ export default function Header(){
                 src="/WCSS-Co-op-Management.png"
                 width={600}
                 height={235}
-                alt="Image of the WCCS Co-op Management Logo"
+                alt="Image of the WCSS Co-op Management Logo"
             />
             <NavLinks />
         </div>
