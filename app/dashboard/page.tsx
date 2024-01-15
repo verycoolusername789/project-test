@@ -1,11 +1,8 @@
-import Header from '@/app/ui/dashboard/header';
-
 // this stuff will all have to be so reformatted
 
 export default function Page(){
     return (
     <main>
-        <Header />
         <div>
             {/* change this into a component */}
             <h2>Progress Bar:</h2>

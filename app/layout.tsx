@@ -1,4 +1,6 @@
 import '@/app/ui/global.css'; //figure css stuff out??
+import { roboto } from '@/app/ui/fonts';
+// import { lusitana } from '@/app/ui/fonts';
 
 export const metadata = {
   title: 'Next.js',
@@ -13,6 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      {/* <body className={`${roboto.className} antialiased`}>{children}</body> */}
+      {/* <body className={`${lusitana.className} antialiased`}>{children}</body> */}
     </html>
   )
 }
