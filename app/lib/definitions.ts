@@ -38,7 +38,7 @@ export type Entry = {
 export type Day = {
     id: string;
     entry_id: string;
-    day: string;
+    day: number;
     time_in: string;
     time_out: string;
     hours: number;
